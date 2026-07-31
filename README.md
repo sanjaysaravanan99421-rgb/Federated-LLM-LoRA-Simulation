@@ -7,16 +7,16 @@ This repository demonstrates how multiple local clients can collaboratively fine
 
 ---
 
-## 🌟 Key Features
+##  Key Features
 
-- **🌐 Federated Aggregation:** Custom server strategy (`SaveStrategy`) extending `FedAvg` to aggregate model weights across clients and export PyTorch/PEFT checkpoints after each round.
-- **⚡ Parameter-Efficient Fine-Tuning (PEFT):** Uses LoRA adapters to drastically cut down bandwidth and hardware requirements during client-server transfers.
-- **🔒 Data Privacy & Independence:** Each client trains locally on its own custom text dataset without transmitting raw data to the central server.
-- **🔮 Next-Word Inference Script:** Includes a dedicated `predict.py` script to test next-word generation on the aggregated global checkpoint.
+- ** Federated Aggregation:** Custom server strategy (`SaveStrategy`) extending `FedAvg` to aggregate model weights across clients and export PyTorch/PEFT checkpoints after each round.
+- ** Parameter-Efficient Fine-Tuning (PEFT):** Uses LoRA adapters to drastically cut down bandwidth and hardware requirements during client-server transfers.
+- ** Data Privacy & Independence:** Each client trains locally on its own custom text dataset without transmitting raw data to the central server.
+- ** Next-Word Inference Script:** Includes a dedicated `predict.py` script to test next-word generation on the aggregated global checkpoint.
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```text
 .
